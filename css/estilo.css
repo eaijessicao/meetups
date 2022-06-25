@@ -1,0 +1,46 @@
+body {
+    background-color: pink;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display:inline-block;
+    justify-content: right;
+    
+}
+
+
+
+.inicial {
+    text-align:right;
+    margin: 10px 10px 0px 0px;
+    display:flexbox;
+    border-style:solid;
+    border-color: rgba(156, 11, 11, 0.616);
+    background-color:rgba(156, 11, 11, 0.616);
+    font-size: 08px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    
+}
+
+    .imagem1 {
+
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 760px;
+    height: 350px;
+    }
+
+    .imagem2 {
+
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 760px;
+    height: 350px;
+    }
+
