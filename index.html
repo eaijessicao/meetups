@@ -1,46 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Projeto 3</title>
-    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/estilo.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-</head>
-<body>
-    <div class="inicial">
-        <ul>
-            <li><a href="./index.html">React meetups</a></li>
+  <body>
+    <header class="header-top">
+      <div class="conteudo">
+        <h1>Meetups</h1>
+        <nav class="header-nav">
+          <ul>
             <li><a href="./index.html"> All Meetups</a></li>
-            <li><a href="./index.html">Favorites</a></li>
-            <li><a href="./index.html">New Meetup</a></li>
+            <li><a href="./index.html">Add New Meetup</a></li>
+            <li><a href="./index.html">Favorites</a> <span>0</span></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-            
-        </ul>
-        </div>
-        <h1>All Meetups</h1>
-        <div class="primeiro">
-            <p>This is a first meetup</p>
-            <p>This a second meetup</p>
-        </div>
-        <div class="segundo p">
-            <p>Meetupstreet 5, 12345 Meetup City</p>  
-        </div>
-        <div class="tofavorite">
-            <a href="./index.html">To favorit</a>
-        </div>
-         <div class="imagem1">
-            <img src="img/imagem.webp" alt=""/>
+    <main>
+      <article>
+        <section class="container">
+          <img src="./img/netflix.jpg" alt="netflix" />
 
-</div>
-        <div class="segundo"><p>This is a second meetup</p></div>
-        <div class="italico2"><p>Meetupstreet 5, 12345 Meetup City</p></div>
-        <div class="imagem2">
-        <img src="img/imagem.webp" alt=""/> </div>
+          <h2>meet me</h2>
+          <p>
+            Satuday, 02:00pm at my house <br />
+            I love you :)
+          </p>
 
-    
-        <p> This is a first, amazing meetup which you definetely should not miss. it will be a lot of fun!</p>
-    
-</body>
+          <button>add to Favorites</button>
+        </section>
+
+        <section class="container-2">
+          <img src="./img/gym.webp" alt="gym" />
+
+          <h2>Gym time!</h2>
+          <p>
+            today at 06:00pm <br />
+            waiting for you...
+          </p>
+
+          <button>add to Favorites</button>
+        </section>
+
+        <section class="container-3">
+          <img src="./img/study.jpg" alt="study" />
+
+          <h2>Call me on discord</h2>
+          <p>
+            let's talk, study or anything else <br />
+            when you want.
+          </p>
+
+          <button>add to Favorites</button>
+        </section>
+      </article>
+    </main>
+  </body>
 </html>

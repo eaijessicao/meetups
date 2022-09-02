@@ -1,46 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-    background-color: pink;
-    width: 100%;
-    min-height: 100vh;
-    margin: 0;
-    padding: 0;
-    display:inline-block;
-    justify-content: right;
-    
+  background-color: white;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  justify-content: right;
+  font-family: "Open Sans", sans-serif;
 }
 
-
-
-.inicial {
-    text-align:right;
-    margin: 10px 10px 0px 0px;
-    display:flexbox;
-    border-style:solid;
-    border-color: rgba(156, 11, 11, 0.616);
-    background-color:rgba(156, 11, 11, 0.616);
-    font-size: 08px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
-    .imagem1 {
+h1 {
+  font-size: 20px;
+}
 
-        display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    width: 760px;
-    height: 350px;
-    }
+h2 {
+  font-size: 2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
 
-    .imagem2 {
+.header-top {
+  background-color: #77002e;
+  margin-bottom: 2.5rem;
+}
 
-        display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    width: 760px;
-    height: 350px;
-    }
+.conteudo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 10px;
+}
 
+.header-nav ul {
+  display: inline-flex;
+  list-style: none;
+}
+.header-nav li {
+  margin: 10px;
+  text-align: center;
+}
+
+.header-nav a {
+  color: #fcb8d2;
+  text-decoration: none;
+}
+
+.header-nav span {
+  color: white;
+  border: 4px #cc2062 solid;
+  border-radius: 30%;
+  background-color: #cc2062;
+}
+
+article {
+  margin: 0 auto;
+  max-width: 640px;
+  height: 360px;
+}
+.container,
+.container-2,
+.container-3 {
+  background-color: #fcf3f6;
+  padding: 0 0;
+  text-align: center;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  box-shadow: 4px 9px 10px rgb(172 168 168);
+}
+
+button {
+  border: 1px #77002e solid;
+  margin: 1rem;
+  font-size: 15px;
+  padding: 7px 16px;
+  border-radius: 4px;
+  background-color: white;
+}
